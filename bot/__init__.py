@@ -22,6 +22,8 @@ faulthandler_enable()
 install()
 setdefaulttimeout(600)
 
+pyroutils.MIN_CHAT_ID = -999999999999
+pyroutils.MIN_CHANNEL_ID = -100999999999999
 botStartTime = time()
 
 basicConfig(format="[%(asctime)s] [%(levelname)s] - %(message)s", #  [%(filename)s:%(lineno)d]
